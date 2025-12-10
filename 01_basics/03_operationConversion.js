@@ -14,3 +14,4 @@ let stringOfNumber=String(someOfNumber)
 console.log(typeof stringOfNumber);
 
 console.log("Hello world");
+console.log("ashish");
