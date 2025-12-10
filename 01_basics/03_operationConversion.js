@@ -12,3 +12,5 @@ let valueInNumber=Number(score);
 let someOfNumber=12
 let stringOfNumber=String(someOfNumber)
 console.log(typeof stringOfNumber);
+
+console.log("Hello world");
