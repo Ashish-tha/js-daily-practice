@@ -37,9 +37,32 @@ let myObj={
         cons1ole.log("hello world");
     }
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
 
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
 
 // All non-primitive data tyopes is return object in JavaScript
 
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Satck (Primitive), Heap memory(non-primitive) 
+
+let myChaneel="ashishyoutube";
+let anotherChaneel=myChaneel;
+
+anotherChaneel="ashish tech";
+
+// console.log(myChaneel);
+// console.log(anotherChaneel);
+
+let userOne={
+    email:"user.gmail.com",
+    upi:"upi@ybl"   
+}
+
+let userTwo=userOne;
+userTwo.email="user2.gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
